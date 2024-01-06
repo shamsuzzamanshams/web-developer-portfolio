@@ -114,6 +114,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About section style */
 .about {
     padding: 130px;
@@ -146,6 +150,32 @@ main {
     font-style: normal;
     height: 20px;
 }
-#what-i-do-description{
+
+/* what i do related style */
+
+#what-i-do-description {
     padding: 50px 150px;
+}
+
+.skill-containsr {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume style section */
+.resume-column-titet {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
